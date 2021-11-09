@@ -1,10 +1,13 @@
 const generateInvoice = require('./membershiprule');
 
+const MONTH = 1;
+const ITEMCODE = "MB(S) 1"
+
 const testInvoice = (month) => {
 
     const invoiceRes = {
         packageName: 'Allycia Faith',
-        itemCode: 'MB(S) 0.5'
+        itemCode: ITEMCODE
     };
     const invoiteItems = generateInvoice(invoiceRes, month);
     console.log(invoiteItems)
@@ -17,9 +20,12 @@ const testInvoice = (month) => {
 // 5, 1 Year Membership Renewal, MB-R(S) 1
 // 6, 2 Year Membership Renewal, MB-R(S) 2
 
-for (var i = 1; i <= 12; i++) {
-    testInvoice(i);
-    console.log("");
-    console.log("-----")
-    console.log("");
-}
+// for (var i = 1; i <= 12; i++) {
+//     testInvoice(i);
+//     console.log("");
+//     console.log("-----")
+//     console.log("");
+// }
+
+
+testInvoice(MONTH);
