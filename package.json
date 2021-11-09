@@ -1,0 +1,20 @@
+{
+    "name": "allyciamembership",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "testmembership": "node src/index.js    "
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fernandocyder/allyciamembership.git"
+    },
+    "author": "Allycia Faith Karnagi <allycia@karnagi.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fernandocyder/allyciamembership/issues"
+    },
+    "homepage": "https://github.com/fernandocyder/allyciamembership#readme"
+}
