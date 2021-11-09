@@ -1,6 +1,6 @@
 const generateInvoice = require('./membershiprule');
 
-const MONTH = 1;
+const MONTH = 3;
 const ITEMCODE = "MB(S) 1"
 
 const testInvoice = (month) => {
